@@ -566,6 +566,25 @@
               "url": "https://link.coupang.com/re/AFFSDP?lptag=AF8849947&pageKey=9197558643&itemId=27152314297&vendorItemId=94120134693&traceid=V0-153-c80f4333d30ea692&clickBeacon=ce89bc00-79c4-11f1-b233-db7ceb41c7ec%7E3&requestid=20260707142921018019359145&token=31850C%7CMIXED"
             }
           ]
+        },
+        "뷰티추천": {
+          "key": "뷰티추천",
+          "title": "서연 · 뷰티 추천템",
+          "updated": "2026-07-07",
+          "links": [
+            {
+              "title": "① 약산성 클렌징오일 · 프레티 약산성 히알루로닉 클렌징오일, 200",
+              "url": "https://link.coupang.com/re/AFFSDP?lptag=AF8849947&pageKey=6163332282&itemId=19168935006&vendorItemId=86287206832&traceid=V0-153-d203bed0678ccb81&clickBeacon=d09da7e0-79c4-11f1-9324-51662fe99599%7E3&requestid=20260707142924481310547763&token=31850C%7CMIXED"
+            },
+            {
+              "title": "② 수분 앰플 · 토니모리 원더 히알루론산 촉촉 앰플",
+              "url": "https://link.coupang.com/re/AFFSDP?lptag=AF8849947&pageKey=5715573812&itemId=9542937531&vendorItemId=76827638643&traceid=V0-153-28b8252176bf3a41&requestid=20260707142924870009276267&token=31850C%7CGM"
+            },
+            {
+              "title": "③ 데일리 선크림 · 닥터지 그린 마일드 업 선 플러스 SPF50",
+              "url": "https://link.coupang.com/re/AFFSDP?lptag=AF8849947&pageKey=1473062788&itemId=19169252950&vendorItemId=80265071820&traceid=V0-153-5a1b62ab65affc8a&clickBeacon=d10124a0-79c4-11f1-b530-38d89c5335dd%7E3&requestid=20260707142925198217460694&token=31850C%7CMIXED"
+            }
+          ]
         }
       }
     }
