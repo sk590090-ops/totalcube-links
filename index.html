@@ -199,7 +199,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </section>
 <footer>
   이 페이지의 링크는 쿠팡 파트너스 활동의 일환으로,<br>구매 시 일정액의 수수료를 제공받을 수 있습니다.<br>
-  마지막 갱신 2026-07-09 02:10
+  마지막 갱신 2026-07-09 02:22
 </footer>
 <script>
 function toggleMore(key, btn) {
@@ -209,6 +209,30 @@ function toggleMore(key, btn) {
   if (open) { box.removeAttribute('hidden'); btn.textContent = '－ 접기'; }
   else { box.setAttribute('hidden', ''); btn.textContent = '＋ 더보기 (' + box.children.length + '개)'; }
 }
+</script>
+<script>
+document.addEventListener('click', function(e){
+  var el = e.target.closest('a.btn, a.ch');
+  if(!el) return;
+  var href = el.getAttribute('href') || '';
+  if(href.indexOf('http') !== 0) return;
+  var t = el.querySelector('b') || el.querySelector('span') || el;
+  var text = (t.textContent || '').trim().slice(0, 100);
+  var secEl = el.closest('section');
+  var sec = (secEl && secEl.querySelector('h2')) ? secEl.querySelector('h2').textContent.trim().slice(0, 80) : '';
+  var det = el.closest('details');
+  var topic = (det && det.querySelector('summary')) ? det.querySelector('summary').textContent.replace(/\s+/g,' ').trim().slice(0, 80) : text;
+  var isProduct = el.classList.contains('btn');
+  if (typeof gtag === 'function') {
+    gtag('event', isProduct ? 'affiliate_click' : 'outbound_click', {
+      link_url: href,
+      link_text: text,
+      link_topic: topic,
+      link_section: sec,
+      transport_type: 'beacon'
+    });
+  }
+});
 </script>
 </body>
 </html>
