@@ -1567,6 +1567,17 @@
               "url": "https://link.coupang.com/re/AFFSDP?lptag=AF8849947&pageKey=8323957108&itemId=24028119774&vendorItemId=91048558863&traceid=V0-153-80aaaa3a0f79157a&clickBeacon=d9a0cdb0-832c-11f1-9291-e089102b1fde%7E3&requestid=20260719134647755210214509&token=31850C%7CMIXED"
             }
           ]
+        },
+        "airfryer_260715": {
+          "key": "airfryer_260715",
+          "title": "요리 귀찮은 날, 에어프라이어가 살립니다",
+          "updated": "2026-07-21",
+          "links": [
+            {
+              "title": "최저가 구매 바로가기",
+              "url": "https://link.coupang.com/a/fymiquNuBE"
+            }
+          ]
         }
       }
     },
